@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Figyelek a következő porton: ${port}`)
+  console.log(`Más valami!`)
 })
 
