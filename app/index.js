@@ -1,12 +1,11 @@
-const express = require('express')
+import express from 'express'
 const app = express()
 const port = 8000
 
-app.get('/', (req, res) => {
-  res.send('Helló Express!')
+app.get('/valami', (req, res) => {
+    res.send('ÉS Működik!')
 })
 
 app.listen(port, () => {
-  console.log(`Más valami!`)
+    console.log(`Listen on: ${port}`)
 })
-
